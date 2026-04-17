@@ -52,13 +52,13 @@ export default function SkillsCompact({
   };
 
   return (
-    <section className="w-full py-16 px-4 bg-gradient-to-b from-white to-slate-50 dark:from-slate-900 dark:to-slate-950">
+    <section className="w-full py-16 px-4 bg-gradient-to-b from-slate-700 to-slate-600">
       <div className="max-w-6xl mx-auto">
         <div className="mb-12">
-          <h2 className="text-4xl md:text-4xl font-bold text-slate-900 dark:text-white mb-3">
+          <h2 className="text-4xl md:text-4xl font-bold text-white mb-3">
             {title}
           </h2>
-          <div className="w-12 h-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
+          <div className="w-12 h-0.5 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
@@ -68,9 +68,9 @@ export default function SkillsCompact({
             const levelLabel = getLevelLabel(skill.level);
 
             return (
-              <div key={index} className="p-3 bg-white dark:bg-slate-800 rounded-lg border border-slate-100 dark:border-slate-700 hover:shadow-md dark:hover:shadow-blue-500/20 transition-all duration-300">
+              <div key={index} className="p-3 bg-slate-600 rounded-lg border border-slate-500 hover:shadow-md hover:bg-slate-500 transition-all duration-300">
                 <div className="flex justify-between items-center mb-2">
-                  <h3 className="text-xs font-semibold text-slate-900 dark:text-white truncate flex-1">
+                  <h3 className="text-xs font-semibold text-white truncate flex-1">
                     {skill.name}
                   </h3>
                   <span className={`px-1.5 py-0.5 rounded text-xs font-bold flex-shrink-0 ml-1 ${badgeColor}`}>
@@ -79,7 +79,7 @@ export default function SkillsCompact({
                 </div>
 
                 {/* Barra de progresso */}
-                <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-1.5 overflow-hidden">
+                <div className="w-full bg-slate-500 rounded-full h-1.5 overflow-hidden">
                   <div
                     className={`h-full ${barColor} transition-all duration-500`}
                     style={{ width: `${percentage}%` }}

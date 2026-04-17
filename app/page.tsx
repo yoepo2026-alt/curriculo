@@ -1,3 +1,4 @@
+import Header from './components/Header';
 import About from './components/About';
 import PersonalData from './components/PersonalData';
 import SkillsCompact from './components/SkillsCompact';
@@ -13,7 +14,7 @@ export default function Home() {
   // Dados de exemplo - você pode trocar pela sua foto e informações reais
   const aboutData = {
     name: "Yoenis Alain Pavón Ortega",
-    description: "Profissional com mais de 30 anos de experiência em tecnologia, automação e desenvolvimento de sistemas, com atuação direta desde o nível operacional até a coordenação de processos produtivos.Durante 16 anos, trabalhou na área de automação, com foco em projetos, montagem e instalação de sistemas automatizados, principalmente em ambientes hoteleiros, utilizando tecnologias da Schneider Electric.Possui sólida especialização em desenvolvimento de software com C#, .NET, SQL Server e tecnologias web, integrando soluções digitais com sistemas industriais e de automação.",
+    description: "Profissional com mais de 30 anos de experiência em tecnologia, automação e desenvolvimento de sistemas, com atuação direta desde o nível operacional até a coordenação de processos produtivos. Durante 16 anos, trabalhou na área de automação, com foco em projetos, montagem e instalação de sistemas automatizados, principalmente em ambientes hoteleiros, utilizando tecnologias da Schneider Electric. Possui sólida especialização em desenvolvimento de software com C#, .NET, SQL Server e tecnologias web, integrando soluções digitais com sistemas industriais e de automação.",
     photoUrl: "../../images/foto.png", // Troque pela URL da sua foto
   };
 
@@ -144,8 +145,13 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-slate-950 font-sans">
+    <div className="flex flex-col min-h-screen bg-slate-800 font-sans">
       <main className="flex-1 w-full">
+        <Header 
+          title={aboutData.name}
+          subtitle="Desenvolvedor Full Stack | Especialista em Automação & Sistemas"
+          cta="Explorar Portfólio"
+        />
         <About 
           name={aboutData.name}
           description={aboutData.description}

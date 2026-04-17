@@ -56,34 +56,34 @@ export default function PersonalData({
   ].filter(Boolean);
 
   return (
-    <section className="w-full py-12 px-4 bg-white dark:bg-slate-800 border-b border-slate-100 dark:border-slate-700">
+    <section className="w-full py-12 px-4 bg-slate-700 border-b border-slate-600">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Contato Principal */}
           {contactItems.map((item, index) => (
             <div
               key={index}
-              className={`flex items-start gap-4 p-4 rounded-lg bg-slate-50 dark:bg-slate-700/50 border border-slate-100 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors ${
+              className={`flex items-start gap-4 p-4 rounded-lg bg-slate-600 border border-slate-500 hover:bg-slate-500 transition-colors ${
                 item.href ? 'cursor-pointer' : ''
               }`}
             >
-              <div className="flex-shrink-0 text-blue-600 dark:text-blue-400 mt-1">
+              <div className="flex-shrink-0 text-blue-300 mt-1">
                 {item.icon}
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wide">
+                <p className="text-xs font-semibold text-slate-300 uppercase tracking-wide">
                   {item.label}
                 </p>
                 {item.href ? (
                   <a
                     target="_blank"
                     href={item.href}
-                    className="text-slate-900 dark:text-white font-semibold hover:text-blue-600 dark:hover:text-blue-400 transition-colors truncate"
+                    className="text-white font-semibold hover:text-blue-300 transition-colors truncate"
                   >
                     {item.value}
                   </a>
                 ) : (
-                  <p className="text-slate-900 dark:text-white font-semibold">
+                  <p className="text-white font-semibold">
                     {item.value}
                   </p>
                 )}
@@ -93,8 +93,8 @@ export default function PersonalData({
 
           {/* Social Links */}
           {socialLinks.length > 0 && (
-            <div className="p-4 rounded-lg bg-slate-50 dark:bg-slate-700/50 border border-slate-100 dark:border-slate-600">
-              <p className="text-xs font-semibold text-slate-600 dark:text-slate-400 mb-3 uppercase tracking-wide">
+            <div className="p-4 rounded-lg bg-slate-600 border border-slate-500">
+              <p className="text-xs font-semibold text-slate-300 mb-3 uppercase tracking-wide">
                 Redes
               </p>
               <div className="flex gap-2">
@@ -105,7 +105,7 @@ export default function PersonalData({
                     target="_blank"
                     rel="noopener noreferrer"
                     title={social.label}
-                    className="w-9 h-9 flex items-center justify-center rounded-lg bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
+                    className="w-9 h-9 flex items-center justify-center rounded-lg bg-blue-600 text-white hover:bg-blue-500 transition-colors"
                   >
                     {social.icon === 'linkedin' && (
                       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

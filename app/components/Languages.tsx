@@ -58,13 +58,13 @@ export default function Languages({
   };
 
   return (
-    <section className="w-full py-20 px-4 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
+    <section className="w-full py-20 px-4 bg-gradient-to-b from-slate-700 to-slate-600">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-5xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
+          <h2 className="text-5xl md:text-5xl font-bold text-white mb-4">
             {title}
           </h2>
-          <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
+          <div className="w-16 h-1 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -74,9 +74,9 @@ export default function Languages({
             const levelLabel = getLevelLabel(language.level);
 
             return (
-              <div key={index} className="p-6 bg-white dark:bg-slate-800 rounded-lg border border-slate-100 dark:border-slate-700 hover:shadow-lg dark:hover:shadow-blue-500/20 transition-all duration-300">
+              <div key={index} className="p-6 bg-slate-600 rounded-lg border border-slate-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                  <h3 className="text-lg font-semibold text-white">
                     {language.name}
                   </h3>
                   <span className={`px-3 py-1 rounded-full text-xs font-bold ${badgeColor}`}>
@@ -85,7 +85,7 @@ export default function Languages({
                 </div>
 
                 {/* Barra de progresso */}
-                <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2 overflow-hidden">
+                <div className="w-full bg-slate-500 rounded-full h-2 overflow-hidden">
                   <div
                     className={`h-full ${barColor} transition-all duration-500`}
                     style={{ width: `${percentage}%` }}

@@ -214,7 +214,7 @@ export default async function ExperiencePage({ params }: PageProps) {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-slate-950 font-sans">
       {/* Header com voltar */}
-      <div className="w-full py-6 px-4 bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-950 border-b border-slate-100 dark:border-slate-800">
+      <div className="w-full py-6 px-4 bg-gradient-to-b from-slate-400 to-slate-600 dark:from-slate-900 dark:to-slate-950 border-b border-slate-100 dark:border-slate-800">
         <div className="max-w-6xl mx-auto">
           <Link
             href="/"
