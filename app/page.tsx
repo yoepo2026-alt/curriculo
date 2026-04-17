@@ -60,82 +60,90 @@ export default function Home() {
     {
       id: "fullstack-developer",
       position: "Desenvolvedor Full Stack",
-      company: "Tech Solutions",
-      period: "2022 - Presente",
-      description: "Desenvolvimento de aplicações web modernas utilizando React, Next.js e Node.js. Responsável pela arquitetura de sistemas e otimização de performance.",
+      company: "Compacto Caribe S.A.",
+      period: "05/2017 - 02/2026",
+      description: "Projeto e desenvolvimento de software para a automação da maioria dos processos da empresa dedicada a fabricação de caixas de cartão corrugado, utilizando C#, .Net, JavaScript,TypeScript, React, CSS, HTML e SQL Server.",
       achievements: [
-        "Implementação de 5+ aplicações em produção",
-        "Redução de tempo de carregamento em 40%",
-        "Mentoria de 3 desenvolvedores júniores"
+        "Creacão de sistema de controle de produção, resultando em aumento de eficiência e redução de erros manuais",
+        "Automatização de processos administrativos, economizando tempo e recursos  da equipe administrativa, comercial, econômica e de logística ",
+        "Instalaçao de sistema de CCT para monitoramento de segurança, integrando com sistemas de automação para resposta rápida a incidentes",
+        "Desenvolvimento de dashboard de indicadores de produção e eficiência, permitindo melhor tomada de decisões estratégicas" ,
+        "Instalacão de sistema Asterisk para gestão de chamadas e integração com sistemas de automação para otimizar atendimento ao cliente"        
       ]
     },
     {
       id: "automation-engineer",
-      position: "Engenheiro de Automação",
-      company: "Industrial Systems",
-      period: "2020 - 2022",
-      description: "Projetos e implementação de sistemas automatizados em ambientes industriais. Integração de soluções digitais com sistemas de automação.",
+      position: "Especialista em Automação",
+      company: "Companhia de automação integral CEDAI, Cuba",
+      period: "2001 - 2016",
+      description: "Projetos e implementação de sistemas automatizados em ambientes industriais e residenciais. Integração de soluções digitais com sistemas de automação.",
       achievements: [
-        "Implementação de 8 projetos de automação",
-        "Economia de 30% em custos operacionais",
+        "Implementação de +28 projetos de automação",
+        "Economia  em custos operacionais e melhoria de eficiência",
         "Certificação em Schneider Electric"
       ]
     },
     {
       id: "csharp-developer",
-      position: "Desenvolvedor C# / .NET",
-      company: "Software Enterprise",
-      period: "2018 - 2020",
-      description: "Desenvolvimento de aplicações desktop e web com C# e .NET Framework. Trabalho com SQL Server e integração de APIs.",
+      position: "Desenvolvedor Software",
+      company: "Companhia Açucareira Amancio Rodríguez, Cuba",
+      period: "1994 - 2000",
+      description: "Desenvolvimento de aplicações desktop  com MSAccess na área de controle de estoque e produção, utilizando VBA e FoxPro.",
       achievements: [
-        "Desenvolvimento de sistema de gestão empresarial",
-        "Otimização de queries com melhora de 50% em performance",
-        "Implementação de testes unitários e CI/CD"
+        "Automatização de processos manuais, resultando em aumento de eficiência",
+        "Gestão de banco de dados e otimização de consultas para melhorar o desempenho  do sistema",
+        "Integração de soluções digitais com sistemas de automação para otimizar operações"
       ]
     }
   ];
 
   const certificationsData: Certification[] = [
     {
-      name: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialUrl: "https://aws.amazon.com/certification",
+      name: "Treinamento do  tecnología TAC Schneider",
+      issuer: "Centro de formação de Schneider, Barcelona, Espanha ",
+      date: "2005",
+/*       credentialUrl: "https://aws.amazon.com/certification",
       pdfUrl: "https://example.com/certificates/aws-architect.pdf"
-    },
+ */    },
     {
-      name: "React Advanced Patterns",
-      issuer: "Udemy",
-      date: "2022",
-      credentialUrl: "https://udemy.com",
+      name: "Treinamento do  tecnología Wireless TAC Schneider",
+      issuer: "Centro de formação de Schneider, Santiago de Chile, Chile",
+      date: "2006",
+  /*     credentialUrl: "https://udemy.com",
       pdfUrl: "https://example.com/certificates/react-patterns.pdf"
-    },
+ */    },
     {
-      name: "Scrum Master Certified",
-      issuer: "Scrum Alliance",
-      date: "2021",
-      credentialUrl: "https://scrumalliance.org",
+      name: "Certificação no uso da StruxureWare WorkStation 1.7",
+      issuer: "Centro de formação de Schneider, Barcelona, Espanha",
+      date: "2016",
+ /*      credentialUrl: "https://scrumalliance.org",
       pdfUrl: "https://example.com/certificates/scrum-master.pdf"
-    },
+ */    },
     {
-      name: "Full Stack Web Development",
-      issuer: "Coursera",
-      date: "2020",
-      credentialUrl: "https://coursera.org",
+      name: "Certificação no uso da TAC Vista 5.9 e Sistemas LonWorks",
+      issuer: "Centro de formação de Schneider, Barcelona, Espanha",
+      date: "2016",
+  /*     credentialUrl: "https://coursera.org",
       pdfUrl: "https://example.com/certificates/fullstack.pdf"
+ */    },
+    {
+      name: "Certificação On2Power Schneider Electric",
+      issuer: "Schneider Electric, Brasil",
+      date: "2022",
+  //    pdfUrl: "https://example.com/certificates/schneider.pdf"
     },
     {
-      name: "Certificação Schneider Electric",
-      issuer: "Schneider Electric",
-      date: "2019",
-      pdfUrl: "https://example.com/certificates/schneider.pdf"
+      name: "Certificação Camada Física",
+      issuer: "Academia de Conhecimento Intelbras, Brasil",
+      date: "2026",
+      pdfUrl: "../../certificados/camada.pdf"
     },
     {
-      name: "SQL Server Database Administrator",
-      issuer: "Microsoft",
-      date: "2018",
-      pdfUrl: "https://example.com/certificates/sql-server.pdf"
-    }
+      name: "Certificação alarmes e sensores",
+      issuer: "Academia de Conhecimento Intelbras, Brasil",
+      date: "2026",
+      pdfUrl: "../../certificados/sensores.pdf"
+    },
   ];
 
   const languagesData: Language[] = [

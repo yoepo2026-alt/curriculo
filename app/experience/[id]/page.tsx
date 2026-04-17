@@ -5,25 +5,27 @@ import type { Project } from '@/app/components/Projects';
 // Dados das experiências com seus projetos
 const experiencesData: Record<string, any> = {
   'fullstack-developer': {
-    position: "Desenvolvedor Full Stack",
-    company: "Tech Solutions",
-    period: "2022 - Presente",
-    description: "Desenvolvimento de aplicações web modernas utilizando React, Next.js e Node.js. Responsável pela arquitetura de sistemas e otimização de performance.",
-    achievements: [
-      "Implementação de 5+ aplicações em produção",
-      "Redução de tempo de carregamento em 40%",
-      "Mentoria de 3 desenvolvedores júniores"
-    ],
+     position: "Desenvolvedor Full Stack",
+      company: "Compacto Caribe S.A.",
+      period: "05/2017 - 02/2026",
+      description: "Projeto e desenvolvimento de software para a automação da maioria dos processos da empresa dedicada a fabricação de caixas de cartão corrugado, utilizando C#, .Net, JavaScript,TypeScript, React, CSS, HTML e SQL Server.",
+      achievements: [
+        "Creacão de sistema de controle de produção, resultando em aumento de eficiência e redução de erros manuais",
+        "Automatização de processos administrativos, economizando tempo e recursos  da equipe administrativa, comercial, econômica e de logística ",
+        "Instalaçao de sistema de CCT para monitoramento de segurança, integrando com sistemas de automação para resposta rápida a incidentes",
+        "Desenvolvimento de dashboard de indicadores de produção e eficiência, permitindo melhor tomada de decisões estratégicas" ,
+        "Instalacão de sistema Asterisk para gestão de chamadas e integração com sistemas de automação para otimizar atendimento ao cliente"        
+      ],
     projects: [
       {
         id: "1",
         title: "Dashboard Analítico",
         description: "Sistema completo de dashboards para análise de dados em tempo real com visualizações interativas e relatórios customizáveis.",
         technologies: ["React", "Next.js", "Chart.js", "Node.js", "PostgreSQL"],
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+ /*        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
         link: "https://example-dashboard.com",
         github: "https://github.com/example/dashboard",
-        highlights: [
+ */        highlights: [
           "Integração com 3+ APIs externas",
           "Performance otimizada com 2s de carregamento",
           "Autenticação OAuth 2.0"
@@ -74,107 +76,100 @@ const experiencesData: Record<string, any> = {
     ]
   },
   'automation-engineer': {
-    position: "Engenheiro de Automação",
-    company: "Industrial Systems",
-    period: "2020 - 2022",
-    description: "Projetos e implementação de sistemas automatizados em ambientes industriais. Integração de soluções digitais com sistemas de automação.",
-    achievements: [
-      "Implementação de 8 projetos de automação",
-      "Economia de 30% em custos operacionais",
-      "Certificação em Schneider Electric"
-    ],
+      position: "Especialista em Automação",
+      company: "Companhia de automação integral CEDAI, Cuba",
+      period: "2001 - 2016",
+      description: "Projetos e implementação de sistemas automatizados em ambientes industriais e residenciais. Integração de soluções digitais com sistemas de automação.",
+      achievements: [
+        "Implementação de +28 projetos de automação",
+        "Economia  em custos operacionais e melhoria de eficiência",
+        "Certificação em Schneider Electric"
+      ]
+,
     projects: [
       {
         id: "5",
-        title: "Sistema de Controle SCADA",
-        description: "Implementação de sistema SCADA para monitoramento e controle de processos industriais com interface web responsiva.",
-        technologies: ["Node-RED", "Python", "InfluxDB", "Grafana", "Modbus"],
-        image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop",
-        link: "#",
+        title: "Automação da Companhia Cárnica BRAVO SA.",
+        description: "Implementação de sistema SCADA para monitoramento e controle da sistema de refrigeração, resultando em redução de 20% no consumo energético e aumento da eficiência operacional.",
+        technologies: ["CLP Momentum", "Scada", "Modbus"],
+        image: "../../images/bravo.jpg",
+       // link: "#",
         highlights: [
-          "Monitoramento de 50+ sensores em tempo real",
-          "Alertas automáticos com notificações por email",
-          "Histórico de dados com retenção de 5 anos"
+          "Montagem da instrumentação",
+          "Montagem dos CLPs( TSX Momentum ) e conexão de cada Painel de controle.",
+          "Ajuste e comissionamento"
         ]
       },
       {
         id: "6",
-        title: "Automação de Linha de Produção",
-        description: "Desenvolvimento e implementação de automação completa em linha de produção hoteleira com redução de 60% de tempo.",
-        technologies: ["Schneider Electric", "PLC", "HMI", "Ethernet/IP"],
-        image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop",
-        link: "#",
+        title: "Automação do Hoteles do Complexo Turístico Varadero, Cuba",
+        description: "Desenvolvimento e implementação de automação em sistemas de HVAC, iluminação e segurança, resultando em economia de 30% nos custos operacionais e melhoria da experiência dos hóspedes.",
+        technologies: ["Schneider Electric", "CLP Momentum", "HMI", "Ethernet/IP", "Modbus", "BACnet", "CLP Nano", "CLP Zelio", "CLP Twido", "CLP M340", "CLP TAC Xenta", "CLP TSX Premium", "CLP TSX Momentum", "CLP TSX Nano", "CLP TSX Zelio", "CLP TSX Twido", "CLP TSX M340", "CLP TSX TAC Xenta"],
+        image: "../../images/varadero.jpg",
+        //link: "#",
         highlights: [
-          "Redução de tempo de ciclo em 60%",
-          "Aumento de produtividade em 45%",
-          "Zero acidentes de trabalho pós-implementação"
+         "Automação de sistemas de HVAC, iluminação e segurança",
+         "Montagem da instrumentação",
+          "Montagem dos CLPse conexão de cada Painel de controle.",
+          "Ajuste e comissionamento"
         ]
       },
       {
         id: "7",
-        title: "Sistema de Gestão Energética",
-        description: "Implementação de sistema para monitoramento e otimização de consumo energético em complexo industrial.",
-        technologies: ["PowerLogic", "PowerTag", "DataBridge", "Schneider Electric"],
-        image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=300&fit=crop",
-        link: "#",
+        title: "Automação do Condomínios Residenciais em Havana, Cuba",
+        description: "Automação de sistemas de iluminação, segurança e monitoramento de energia em condomínios residenciais, resultando em economia de 25% no consumo energético e melhoria da segurança dos moradores.",
+        technologies: ["PowerLogic", "CLP TAC Xenta", "CLP TWIDO", "Schneider Electric"],
+        image: "../../images/condominios.jpg",
+       // link: "#",
         highlights: [
           "Redução de 25% no consumo energético",
-          "Identificação de falhas potenciais 2 semanas antes",
-          "ROI em 18 meses"
+          "Sistema de monitoramento de energia com PowerLogic",
+          "Sistema de segurança integrado com CLP TAC Xenta e CLP TWIDO",
+            "Montagem da instrumentação",
+            "Montagem dos CLPs( CLP TAC Xenta e CLP TWIDO ) e conexão de cada Painel de controle.",
         ]
       }
     ]
   },
   'csharp-developer': {
-    position: "Desenvolvedor C# / .NET",
-    company: "Software Enterprise",
-    period: "2018 - 2020",
-    description: "Desenvolvimento de aplicações desktop e web com C# e .NET Framework. Trabalho com SQL Server e integração de APIs.",
-    achievements: [
-      "Desenvolvimento de sistema de gestão empresarial",
-      "Otimização de queries com melhora de 50% em performance",
-      "Implementação de testes unitários e CI/CD"
-    ],
+      position: "Desenvolvedor Software",
+      company: "Companhia Açucareira Amancio Rodríguez, Cuba",
+      period: "1994 - 2000",
+      description: "Desenvolvimento de aplicações desktop  com MSAccess na área de controle de estoque e produção, utilizando VBA e FoxPro.",
+      achievements: [
+        "Automatização de processos manuais, resultando em aumento de eficiência",
+        "Gestão de banco de dados e otimização de consultas para melhorar o desempenho  do sistema",
+        "Integração de soluções digitais com sistemas de automação para otimizar operações"
+      ]
+,
     projects: [
       {
         id: "8",
-        title: "ERP Empresarial",
-        description: "Desenvolvimento de sistema ERP completo para gerenciamento de recursos empresariais com módulos de vendas, compras e estoque.",
-        technologies: ["C#", ".NET Framework", "SQL Server", "WinForms", "Entity Framework"],
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop",
-        link: "#",
+        title: "Sistemas de Gestão Empresarial pra Companhia Açucareira Amancio Rodríguez",
+        description: "Desenvolvimento de sistema de gestão empresarial para controle de estoque, produção, economia e vendas, resultando em aumento de eficiência",
+        technologies: ["Visual Basic", "MSAccess", "SQL", "Foxpro"],
+        image: "../../images/centralamancio.jpg",
+        //link: "#",
         highlights: [
-          "5 módulos principais integrados",
-          "Suporte a 500+ usuários simultâneos",
-          "Relatórios em tempo real com 50+ variações"
+          "Cálculo automático de modelos financeiros",
+          "Faturamento e controle do combustivel da companhia.",
+          "Controle financeiro diário da companhia e suas dependências"
         ]
       },
       {
         id: "9",
-        title: "API REST em .NET",
-        description: "Desenvolvimento de API REST robusta para integração com sistemas legados e aplicações mobile.",
-        technologies: ["C#", ".NET Core", "ASP.NET", "SQL Server", "Docker"],
-        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
-        link: "#",
+        title: "Automação de Processos de Fabricação de Rum e Alcool",
+        description: "Desenvolvimento de sistema de controle de processos para a fabricação de rum e álcool, resultando em aumento da qualidade do produto e redução de desperdícios.",
+        technologies: ["MSAccess", "SQL", "FoxPro", "Visual Basic", "Office Automation"],
+        image: "../../images/sevilla.jpg",
+        //link: "#",
         highlights: [
-          "Suporte a 10000+ requisições/minuto",
-          "Autenticação JWT implementada",
-          "Deploy containerizado com Docker"
+          "Formulação automática de Rum.",
+          "Faturamento e controle de Almacén na Companhia de Rum",
+          "Controle automático de idades na soleira",
+            "Controle automático de processos de fabricação de álcool"
         ]
       },
-      {
-        id: "10",
-        title: "Aplicação Desktop para Logística",
-        description: "Sistema desktop para gerenciamento de rotas de entrega com otimização de trajetos e rastreamento em tempo real.",
-        technologies: ["C#", "WinForms", "SQL Server", "Google Maps API"],
-        image: "https://images.unsplash.com/photo-1526628652108-aa545e6c3697?w=500&h=300&fit=crop",
-        link: "#",
-        highlights: [
-          "Otimização de rotas em 35%",
-          "Rastreamento GPS em tempo real",
-          "Economia anual de 200k em combustível"
-        ]
-      }
     ]
   }
 };

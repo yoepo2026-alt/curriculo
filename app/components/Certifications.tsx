@@ -90,21 +90,21 @@ export default function Certifications({
       {/* Modal para visualizar PDF */}
       {selectedPdf && (
         <div
-          className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center"
           onClick={() => setSelectedPdf(null)}
         >
           <div
-            className="bg-slate-700 rounded-lg w-full max-w-4xl max-h-[90vh] flex flex-col"
+            className="bg-slate-700 w-screen h-screen flex flex-col"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Header do modal */}
-            <div className="flex items-center justify-between p-4 border-b border-slate-600">
+            <div className="flex items-center justify-between p-4 border-b border-slate-600 bg-slate-800">
               <h3 className="text-lg font-bold text-white">
                 Certificado
               </h3>
               <button
                 onClick={() => setSelectedPdf(null)}
-                className="p-2 hover:bg-slate-600 rounded-lg transition-colors"
+                className="p-2 hover:bg-slate-700 rounded-lg transition-colors"
               >
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -113,7 +113,7 @@ export default function Certifications({
             </div>
 
             {/* PDF Viewer */}
-            <div className="flex-1 overflow-auto">
+            <div className="flex-1 overflow-auto bg-slate-700">
               <iframe
                 src={selectedPdf}
                 className="w-full h-full"
@@ -122,7 +122,7 @@ export default function Certifications({
             </div>
 
             {/* Footer com download */}
-            <div className="p-4 border-t border-slate-600 flex gap-2">
+            <div className="p-4 border-t border-slate-600 flex gap-2 bg-slate-800">
               <a
                 href={selectedPdf}
                 download
