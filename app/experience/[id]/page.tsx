@@ -19,54 +19,54 @@ const experiencesData: Record<string, any> = {
     projects: [
       {
         id: "1",
-        title: "Dashboard Analítico",
-        description: "Sistema completo de dashboards para análise de dados em tempo real com visualizações interativas e relatórios customizáveis.",
-        technologies: ["React", "Next.js", "Chart.js", "Node.js", "PostgreSQL"],
- /*        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-        link: "https://example-dashboard.com",
+        title: "Blog Empresarial",
+        description: "Desenvolvimento de um blog empresarial com WordPress, permitindo publicação de artigos, integração com redes sociais e otimização SEO.",
+        technologies: ["WordPress", "PHP", "CMS"],
+        image: "../../images/projetos/blog.jpg",
+/*        link: "https://example-dashboard.com",
         github: "https://github.com/example/dashboard",
  */        highlights: [
-          "Integração com 3+ APIs externas",
-          "Performance otimizada com 2s de carregamento",
-          "Autenticação OAuth 2.0"
+            "Sistema de publicação de artigos com editor visual",
+            "Integração com redes sociais para compartilhamento automático",
+            "Otimização SEO com plugins e práticas recomendadas"
         ]
       },
       {
         id: "2",
-        title: "Plataforma E-commerce",
-        description: "Desenvolvimento de plataforma de e-commerce escalável com sistema de pagamento integrado e gerenciamento de inventário.",
-        technologies: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
-        image: "https://images.unsplash.com/photo-1460925895917-aae19106c12a?w=500&h=300&fit=crop",
-        link: "https://example-ecommerce.com",
-        github: "https://github.com/example/ecommerce",
+        title: "Automatização de Processos de Controle da Produção",
+        description: "Desenvolvimento de sistema de controle de produção para a empresa, resultando em aumento de eficiência e redução de erros manuais.",
+        technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
+        image: "../../images/projetos/controleproducao.jpg",
+        //link: "https://example-ecommerce.com",
+        //github: "https://github.com/example/ecommerce",
         highlights: [
-          "Suporte a múltiplas moedas",
-          "Carrinho persistente com sincronização em tempo real",
-          "Painel admin com relatórios avançados"
+          "Sistema de controle de produção com interface intuitiva",
+          "Automatização de processos administrativos relacionados à produção",
+          "Dashboard de indicadores de produção e eficiência"
         ]
       },
       {
         id: "3",
-        title: "App Gerenciador de Tarefas",
-        description: "Aplicação mobile-first para gerenciar projetos e tarefas com colaboração em tempo real entre equipes.",
-        technologies: ["React Native", "Node.js", "MongoDB", "Socket.io"],
-        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop",
-        link: "https://example-tasks.com",
-        github: "https://github.com/example/tasks",
+        title: "Gestão de Chamadas com Asterisk",
+        description: "Desenvolvimento e implementação de sistema de gestão de chamadas utilizando Asterisk, integrando com sistemas de automação para otimizar atendimento ao cliente.",
+        technologies: ["Asterisk", "VoIP", "SIP", "Integracão de sistemas de automação"],
+        image: "../../images/projetos/asterisk.jpg",
+        //link: "https://example-tasks.com",
+        //github: "https://github.com/example/tasks",
         highlights: [
-          "Notificações push em tempo real",
-          "Sincronização offline com IndexedDB",
-          "Suporte a comentários e anexos"
+          "Sistema de gestão de chamadas com Asterisk",
+          "Integração com sistemas de automação para resposta rápida a incidentes",
+          "Melhoria do atendimento ao cliente e otimização de recursos"
         ]
       },
       {
         id: "4",
-        title: "CMS Headless",
-        description: "Sistema de gerenciamento de conteúdo headless com API REST completa e interface intuitiva para criadores de conteúdo.",
-        technologies: ["Next.js", "Contentful", "Vercel", "GraphQL"],
-        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop",
-        link: "https://example-cms.com",
-        github: "https://github.com/example/cms",
+        title: "Gestão do processo de contratação de clientes e fornecedores",
+        description: "Desenvolvimento de sistema de gestão do processo de contratação de clientes e fornecedores, resultando em otimização do processo e melhor controle das informações.",
+        technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
+        image: "../../images/projetos/contratacao.jpg",
+        //link: "https://example-cms.com",
+        //github: "https://github.com/example/cms",
         highlights: [
           "Suporte a múltiplos idiomas",
           "Versionamento automático de conteúdo",
