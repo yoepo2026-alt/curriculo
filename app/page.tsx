@@ -171,7 +171,7 @@ export default function Home() {
           location={personalData.location}
           linkedin={personalData.linkedin}
           github={personalData.github}
-          portfolio={personalData.portfolio}
+         // portfolio={personalData.portfolio}
         />
         <SkillsCompact 
           title="Minhas Habilidades"
