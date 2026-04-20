@@ -22,7 +22,7 @@ const experiencesData: Record<string, any> = {
         title: "Blog Empresarial",
         description: "Desenvolvimento de um blog empresarial com WordPress, permitindo publicação de artigos, integração com redes sociais e otimização SEO.",
         technologies: ["WordPress", "PHP", "CMS"],
-        image: "../../images/projetos/blog.jpg",
+        image: "../../images/projetos/blog.png",
 /*        link: "https://example-dashboard.com",
         github: "https://github.com/example/dashboard",
  */        highlights: [
@@ -36,7 +36,7 @@ const experiencesData: Record<string, any> = {
         title: "Automatização de Processos de Controle da Produção",
         description: "Desenvolvimento de sistema de controle de produção para a empresa, resultando em aumento de eficiência e redução de erros manuais.",
         technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
-        image: "../../images/projetos/controleproducao.jpg",
+        image: "../../images/projetos/produccion.png",
         //link: "https://example-ecommerce.com",
         //github: "https://github.com/example/ecommerce",
         highlights: [
@@ -64,13 +64,27 @@ const experiencesData: Record<string, any> = {
         title: "Gestão do processo de contratação de clientes e fornecedores",
         description: "Desenvolvimento de sistema de gestão do processo de contratação de clientes e fornecedores, resultando em otimização do processo e melhor controle das informações.",
         technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
-        image: "../../images/projetos/contratacao.jpg",
+        image: "../../images/projetos/contratacao.png",
         //link: "https://example-cms.com",
         //github: "https://github.com/example/cms",
         highlights: [
-          "Suporte a múltiplos idiomas",
-          "Versionamento automático de conteúdo",
-          "Deploy automático em Vercel"
+          "Sistema de gestão do processo de contratação de clientes e fornecedores",
+          "Automatização de processos relacionados à contratação",
+          "Melhoria do controle das informações e otimização do processo"
+        ]
+      },
+      {
+        id: "5",
+        title: "Gestão do processo de solicitação de compras",
+        description: "Desenvolvimento de sistema de gestão do processo de solicitação de compras, resultando em otimização do processo e melhor controle das informações.",
+        technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
+        image: "../../images/projetos/solicitudes.png",
+        //link: "https://example-cms.com",
+        //github: "https://github.com/example/cms",
+        highlights: [
+          "Sistema de gestão do processo de solicitação de compras",
+          "Automatização de processos relacionados à solicitação de compras e fornecedores",
+          "Melhoria do controle das informações e otimização do processo"
         ]
       }
     ]
