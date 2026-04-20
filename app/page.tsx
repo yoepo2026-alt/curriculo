@@ -24,7 +24,7 @@ export default function Home() {
     location: "Caxias do Sul, RS - Brasil",
     linkedin: "https://www.linkedin.com/in/yoenis-alain-pavon-ortega",
     github: "https://github.com/Yapo1972",
-    portfolio: "https://seu-portfolio.com"
+    //portfolio: "https://seu-portfolio.com"
   };
 
   const skillsData: Skill[] = [

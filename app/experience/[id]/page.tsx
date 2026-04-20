@@ -50,7 +50,7 @@ const experiencesData: Record<string, any> = {
         title: "Gestão de Chamadas com Asterisk",
         description: "Desenvolvimento e implementação de sistema de gestão de chamadas utilizando Asterisk, integrando com sistemas de automação para otimizar atendimento ao cliente.",
         technologies: ["Asterisk", "VoIP", "SIP", "Integracão de sistemas de automação"],
-        image: "../../projetos/asterisk.jpg",
+        image: "../../projetos/asterisk.png",
         //link: "https://example-tasks.com",
         //github: "https://github.com/example/tasks",
         highlights: [
