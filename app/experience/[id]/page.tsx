@@ -22,7 +22,7 @@ const experiencesData: Record<string, any> = {
         title: "Blog Empresarial",
         description: "Desenvolvimento de um blog empresarial com WordPress, permitindo publicação de artigos, integração com redes sociais e otimização SEO.",
         technologies: ["WordPress", "PHP", "CMS"],
-        image: "../../images/projetos/blog.png",
+        image: "../../projetos/blog.png",
 /*        link: "https://example-dashboard.com",
         github: "https://github.com/example/dashboard",
  */        highlights: [
@@ -36,7 +36,7 @@ const experiencesData: Record<string, any> = {
         title: "Automatização de Processos de Controle da Produção",
         description: "Desenvolvimento de sistema de controle de produção para a empresa, resultando em aumento de eficiência e redução de erros manuais.",
         technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
-        image: "../../images/projetos/produccion.png",
+        image: "../../projetos/produccion.png",
         //link: "https://example-ecommerce.com",
         //github: "https://github.com/example/ecommerce",
         highlights: [
@@ -50,7 +50,7 @@ const experiencesData: Record<string, any> = {
         title: "Gestão de Chamadas com Asterisk",
         description: "Desenvolvimento e implementação de sistema de gestão de chamadas utilizando Asterisk, integrando com sistemas de automação para otimizar atendimento ao cliente.",
         technologies: ["Asterisk", "VoIP", "SIP", "Integracão de sistemas de automação"],
-        image: "../../images/projetos/asterisk.jpg",
+        image: "../../projetos/asterisk.jpg",
         //link: "https://example-tasks.com",
         //github: "https://github.com/example/tasks",
         highlights: [
@@ -64,7 +64,7 @@ const experiencesData: Record<string, any> = {
         title: "Gestão do processo de contratação de clientes e fornecedores",
         description: "Desenvolvimento de sistema de gestão do processo de contratação de clientes e fornecedores, resultando em otimização do processo e melhor controle das informações.",
         technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
-        image: "../../images/projetos/contratacao.png",
+        image: "../../projetos/contratacao.png",
         //link: "https://example-cms.com",
         //github: "https://github.com/example/cms",
         highlights: [
@@ -78,7 +78,7 @@ const experiencesData: Record<string, any> = {
         title: "Gestão do processo de solicitação de compras",
         description: "Desenvolvimento de sistema de gestão do processo de solicitação de compras, resultando em otimização do processo e melhor controle das informações.",
         technologies: ["C#", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
-        image: "../../images/projetos/solicitudes.png",
+        image: "../../projetos/solicitudes.png",
         //link: "https://example-cms.com",
         //github: "https://github.com/example/cms",
         highlights: [
