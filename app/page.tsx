@@ -113,19 +113,27 @@ export default function Home() {
       pdfUrl: "https://example.com/certificates/react-patterns.pdf"
  */    },
     {
-      name: "Certificação no uso da StruxureWare WorkStation 1.7",
+      name: "SmartStruxure Solution Workstation and System Design",
       issuer: "Centro de formação de Schneider, Barcelona, Espanha",
       date: "2016",
- /*      credentialUrl: "https://scrumalliance.org",
+      pdfUrl: "../../certificados/cert03.pdf"
+/*      credentialUrl: "https://scrumalliance.org",
       pdfUrl: "https://example.com/certificates/scrum-master.pdf"
  */    },
     {
       name: "Certificação no uso da TAC Vista 5.9 e Sistemas LonWorks",
       issuer: "Centro de formação de Schneider, Barcelona, Espanha",
       date: "2016",
-  /*     credentialUrl: "https://coursera.org",
-      pdfUrl: "https://example.com/certificates/fullstack.pdf"
- */    },
+       pdfUrl: "../../certificados/cert01.pdf"
+/*     credentialUrl: "https://coursera.org",
+  */    },
+    {
+      name: "SmartStruxure Solution Lonworks and Modbus Engineering",
+      issuer: "Centro de formação de Schneider, Barcelona, Espanha",
+      date: "2016",
+       pdfUrl: "../../certificados/cert02.pdf"
+/*     credentialUrl: "https://coursera.org",
+  */    },
     {
       name: "Certificação On2Power Schneider Electric",
       issuer: "Schneider Electric, Brasil",

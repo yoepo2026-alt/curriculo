@@ -86,6 +86,48 @@ const experiencesData: Record<string, any> = {
           "Automatização de processos relacionados à solicitação de compras e fornecedores",
           "Melhoria do controle das informações e otimização do processo"
         ]
+      },
+      {
+        id: "6",
+        title: "Automatização do processo de gestão de contas a pagar e receber",
+        description: "Desenvolvimento de sistema de gestão de contas a pagar e receber, resultando em otimização do processo e melhor controle das informações financeiras.",
+        technologies: ["C#","Entity Framework", ".NET", "MVC5", "Dev Express", "SQL Server", "Visual Studio", "Git", "HTML", "CSS", "JavaScript"],
+        image: "../../projetos/cobrar.png",
+        //link: "https://example-cms.com",
+        //github: "https://github.com/example/cms",
+        highlights: [
+          "Sistema de gestão de contas a pagar e receber",
+          "Automatização de processos relacionados à gestão financeira",
+          "Melhoria do controle das informações financeiras e otimização do processo"
+        ]
+      },
+      {
+        id: "7",
+        title: "Dashboard de indicadores de produção,vendas e eficiência",
+        description: "Desenvolvimento de dashboard de indicadores de produção, vendas e eficiência, permitindo melhor tomada de decisões estratégicas e otimização dos processos da empresa usando Power BI e Power Apps.",
+        technologies: ["Power BI", "Power Apps", "SQL Server", "C#", ".NET"],
+        image: "../../projetos/powerbi.png",
+        //link: "https://example-cms.com",
+        //github: "https://github.com/example/cms",
+        highlights: [
+          "Dashboard de indicadores de produção, vendas e eficiência",
+          "Melhoria do controle das informações e otimização do processo",
+          "Integração com sistemas de automação para otimização de processos" 
+        ]
+      },
+      {
+        id: "8",
+        title: "Gestão do dados de produção, vendas e eficiência",
+        description: "Desenvolvimento de sistema de gestão do dados de produção, vendas e eficiência, permitindo melhor controle das informações e otimização dos processos da empresa usando Power BI e Power Apps.",
+        technologies: [ "SQL Server", "C#", ".NET", "Chart.js"],
+        image: "../../projetos/estadisticas.png",
+        //link: "https://example-cms.com",
+        //github: "https://github.com/example/cms",
+        highlights: [
+          "Dashboard de indicadores de produção, vendas e eficiência",
+          "Melhoria do controle das informações e otimização do processo",
+          "Integração com sistemas de automação para otimização de processos" 
+        ]
       }
     ]
   },
