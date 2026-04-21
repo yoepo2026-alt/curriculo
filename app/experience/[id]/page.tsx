@@ -128,6 +128,20 @@ const experiencesData: Record<string, any> = {
           "Melhoria do controle das informações e otimização do processo",
           "Integração com sistemas de automação para otimização de processos" 
         ]
+      },
+      {
+        id: "9",
+        title: "ERP para gestão de todos os processos da empresa",
+        description: "Desenvolvimento de ERP para gestão de todos os processos da empresa, permitindo melhor controle das informações e otimização dos processos da empresa. ",
+        technologies: [ "SQL Server", "C#", ".NET", "Chart.js", "Power BI", "Power Apps", "React", "TypeScript", "Tailwind CSS", "Node.js", "Git", "HTML", "CSS", "JavaScript"],
+        image: "../../projetos/erp.png",
+        //link: "https://example-cms.com",
+        //github: "https://github.com/example/cms",
+        highlights: [
+          "ERP para gestão de todos os processos da empresa",
+          "Melhoria do controle das informações e otimização dos processos da empresa",
+          "Integração com sistemas de automação para otimização de processos" 
+        ]
       }
     ]
   },
