@@ -152,6 +152,19 @@ export default function Home() {
       date: "2026",
       pdfUrl: "../../certificados/sensores.pdf"
     },
+
+    {
+      name: "Certificação Implemente o videomonitoreamento no alarme de intrusão",
+      issuer: "Academia de Conhecimento Intelbras, Brasil",
+      date: "2026",
+      pdfUrl: "../../certificados/video.pdf"
+    },    
+    {
+      name: "Certificação Instale centrais para automatizador de portões de garagem",
+      issuer: "Academia de Conhecimento Intelbras, Brasil",
+      date: "2026",
+      pdfUrl: "../../certificados/portones.pdf"
+    },    
   ];
 
   const languagesData: Language[] = [
