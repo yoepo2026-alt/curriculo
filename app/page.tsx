@@ -165,6 +165,18 @@ export default function Home() {
       date: "2026",
       pdfUrl: "../../certificados/portones.pdf"
     },    
+    {
+      name: "Certificação Integre MiboSmart e Amazon Alexa",
+      issuer: "Academia de Conhecimento Intelbras, Brasil",
+      date: "2026",
+      pdfUrl: "../../certificados/alexa.pdf"
+    },    
+    {
+      name: "Certificação Entenda os fundamentos de redes para CFTV IP",
+      issuer: "Academia de Conhecimento Intelbras, Brasil",
+      date: "2026",
+      pdfUrl: "../../certificados/redescftv.pdf"
+    },    
   ];
 
   const languagesData: Language[] = [
